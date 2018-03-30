@@ -1,0 +1,47 @@
+{
+  "name":"global_Info_management",
+  "login":{
+    "login_url":"http://192.168.1.251:39000/users/login",
+    "login_data":{
+      "userName":12345678910,
+      "password":123456
+    }
+  },
+  "goodsAdd":{
+    "goodsAdd_url":"http://192.168.1.251:39000/goods/add",
+    "goodsAdd_data":{
+      "width":1,
+      "weight":1,
+      "volume":11.00,
+      "unit":"箱",
+      "transProportion":1,
+      "timeUnit":2,
+      "termOfValidity":180,
+      "tax":17,
+      "specification":1,
+      "packType":0,
+      "packId":35,
+      "name":"",
+      "length":11,
+      "introduction":"<p>test</p>",
+      "height":1,
+      "country":"中国",
+      "catalogId":52010100,
+      "catalog":[2,0,52010100],
+      "brandId":2436,
+      "barCode":1234567891011
+    }
+  },
+  "getProvince":{
+    "getProvince_url":"http://192.168.1.251:39000/api/city/getProvince",
+    "getProvince_data":{
+
+    }
+  },
+  "submitImg":{
+    "submitImg_url":"http://192.168.1.251:39000/goods/submitImg",
+    "submitImg_data":{
+      "id":""
+    }
+  }
+}

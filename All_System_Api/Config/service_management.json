@@ -1,0 +1,69 @@
+{
+  "name":"service_management",
+  "login":{
+    "login_url":"http://192.168.1.251:3586/service/api/manager/login",
+    "login_data":{
+      "account":12345678910,
+      "password":123456
+    }
+  },
+  "updateAgency": {
+    "agency_url": "http://192.168.1.251:3586/service/api/manager/updateAgency",
+    "agency_data": {
+      "cityId": 320700,
+      "agencyId": 171
+    }
+  },
+  "orderList":{
+    "orderList_url":"http://192.168.1.251:3586/service/api/order/list",
+    "orderList_data":{
+      "offset":0,
+      "limit":1000,
+      "payType":1,
+      "order":"store",
+      "start":"",
+      "end":"",
+      "message":0,
+      "timeTag":0
+    }
+  },
+  "orderSend":{
+    "orderSend_url":"http://192.168.1.251:3586/service/api/order/send",
+    "orderSend_data":{
+      "orderId":0
+    }
+  },
+  "branchOrder":{
+    "branchOrder_url":"http://192.168.1.251:3586/service/api/backGoods/branchOrder/list",
+    "branchOrder_data":{
+      "draw":1,
+      "length":40,
+      "start":0
+    }
+  },
+  "branchOrderDetails":{
+    "branchOrderDetails_url":"http://192.168.1.251:3586/service/api/backGoods/branchOrder/detail",
+    "branchOrderDetails_data":{
+      "branchOrderId":0,
+      "orderId":0
+    }
+  },
+  "backGoods":{
+    "backGoods_url":"http://192.168.1.251:3586/service/api/backGoods/add",
+    "backGoods_data":{
+      "amounts[]":1,
+      "backComboType":2,
+      "backGoodId":0,
+      "backPackType":1,
+      "branchOrderId":0,
+      "detailId":0,
+      "goodId":0,
+      "message":"",
+      "onSellGoodId":0,
+      "onSellGoodsCombId":0,
+      "orderComboType":0,
+      "orderId":0,
+      "produceDates[]":"2018-01-26"
+    }
+  }
+}

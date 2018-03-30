@@ -1,0 +1,25 @@
+{
+  "name":"purchase_management",
+  "login":{
+    "login_url":"http://192.168.1.248:31100/users/login",
+    "login_data":{
+      "userName":12345678910,
+      "password":123456
+    }
+  },
+  "updateAgency":{
+    "agency_url":"http://192.168.1.248:31100/users/updateAgency",
+    "agency_data":{
+      "cityId":320700,
+      "agencyId":171
+    }
+  },
+  "GoodsList":{
+    "GoodsList_url":"http://192.168.1.248:31100/api/goods/city/cityGoodsList",
+    "GoodsList_data":{
+      "draw":1,
+      "start":0,
+      "length":30
+    }
+  }
+}

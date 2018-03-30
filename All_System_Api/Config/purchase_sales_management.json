@@ -1,0 +1,86 @@
+{
+  "name":"purchase_sales_management",
+  "login": {
+    "login_url": "http://192.168.1.251:31010/users/login",
+    "login_data":{
+      "userName":12345678910,
+      "password":123456
+    }
+
+  },
+  "updateAgency":{
+    "agency_url":"http://192.168.1.251:31010/users/updateAgency",
+    "agency_data":{
+      "cityId":320700,
+      "agencyId":171
+    }
+  },
+  "shelvePublish":{
+    "publish_url":"http://192.168.1.251:31010/api/goods/shelve/publish",
+    "publish_data":{
+      "id":140284,
+      "warehouseId":80,
+      "title":"自动化A06",
+      "isDirectSell":0,
+      "comboType":0,
+      "combos[0][id]":140284,
+      "combos[0][isFree]":0,
+      "combos[0][packageNum]":1,
+      "combos[0][specification]":"1*1箱",
+      "combos[0][unit]":"件",
+      "combos[0][price]":0,
+      "combos[0][originalPrice]":0,
+      "combos[0][preWarehouseId]":80,
+      "catalogId":16010000,
+      "unit":"件",
+      "limit":5,
+      "isDiscount":1,
+      "onSale":0,
+      "price":10,
+      "yjPrice":0,
+      "dadou":0,
+      "startTime":"",
+      "endTime":"",
+      "vip":0,
+      "areaPriceStr":"169:10#170:10#171:10#",
+      "amount":1,
+      "isHotFirst":0,
+      "isAllFirst":0,
+      "isTypeFirst":0,
+      "isOrderLimit":"unlimited",
+      "notSoldPriceArea":"[]",
+      "type":0,
+      "showProduceDate":1
+    }
+  },
+  "stockList": {
+    "stockList_url": "http://192.168.1.251:31010/api/goods/stock/list",
+    "stockList_data": {
+      "draw": 1,
+      "order[0][dir]": "asc",
+      "length": 20
+    }
+  },
+  "suppliers":{
+    "suppliers_url":"http://192.168.1.251:31010/json/supplier/getSuppliers",
+    "suppliers_data":{
+
+    }
+  },
+  "baseDelivery":{
+    "baseDelivery_url":"http://192.168.1.251:31010/api/base/delivery/update",
+    "baseDelivery_data":{
+      "price":30,
+      "state":1
+    }
+  },
+  "getCoupons":{
+    "getCoupons_url":"http://192.168.1.251:31010/json/management/coupon/getCoupons",
+    "getCoupons_data":{
+      "draw":1,
+      "start":0,
+      "length":20,
+      "queryType":99
+    }
+  }
+}

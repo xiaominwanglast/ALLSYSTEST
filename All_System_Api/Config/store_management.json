@@ -1,0 +1,35 @@
+{
+  "name":"store_management",
+  "login":{
+    "login_url":"http://192.168.1.251:30110/login",
+    "login_data":{
+      "phone":12345678910,
+      "pwd":123456
+    }
+  },
+  "changeCity":{
+    "changeCity_url":"http://192.168.1.251:30110/login/changeCity",
+    "changeCity_data":{
+      "cid":320700
+    }
+  },
+  "salesmanList":{
+    "salesmanList_url":"http://192.168.1.251:30110/api/salesman/list",
+    "salesmanList_data":{
+      "draw":1,
+      "start":0,
+      "length":10
+    }
+  },
+  "propertyShop":{
+    "propertyShop_url":"http://192.168.1.251:30110/api/option/property/getShop",
+    "propertyShop_data":{
+      "isHaveChildren":1
+    }
+  },
+  "storeArea":{
+    "storeArea_url":"http://192.168.1.251:30110/api/store/area",
+    "storeArea_data":{
+    }
+  }
+}
